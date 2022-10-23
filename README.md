@@ -37,7 +37,15 @@ content-length: 102
 ```
 
 ```json
-{"data":{"flow_cur_rate":100,"flow_tar_rate":100,"nozzle_cur_temp":25,"nozzle_tar_temp":0},"status":1}
+{
+  "data": {
+    "flow_cur_rate": 100,
+    "flow_tar_rate": 100,
+    "nozzle_cur_temp": 25,
+    "nozzle_tar_temp": 0
+  },
+  "status": 1
+}
 ```
 
 ## right nozzle
@@ -55,7 +63,15 @@ content-length: 102
 ```
 
 ```json
-{"data":{"flow_cur_rate":100,"flow_tar_rate":100,"nozzle_cur_temp":24,"nozzle_tar_temp":0},"status":1}
+{
+  "data": {
+    "flow_cur_rate": 100,
+    "flow_tar_rate": 100,
+    "nozzle_cur_temp": 25,
+    "nozzle_tar_temp": 0
+  },
+  "status": 1
+}
 ```
 
 ## printer-basics
@@ -73,7 +89,17 @@ content-length: 142
 ```
 
 ```json
-{"data":{"fan_cur_speed":30,"fan_tar_speed":30,"feed_cur_rate":100,"feed_tar_rate":100,"heatbed_cur_temp":24,"heatbed_tar_temp":0},"status":1}
+{
+  "data": {
+    "fan_cur_speed": 30,
+    "fan_tar_speed": 30,
+    "feed_cur_rate": 100,
+    "feed_tar_rate": 100,
+    "heatbed_cur_temp": 24,
+    "heatbed_tar_temp": 0
+  },
+  "status": 1
+}
 ```
 
 ## job-status
@@ -91,5 +117,17 @@ content-length: 239
 ```
 
 ```json
-{"data":{"file_name":"Local/medaille_2_extruder_2.gcode","job_id":"C400AD844745_48E7DAEB839B_7e60a1702392518d1b","job_status":"running","print_progress":0,"printed_layer":0,"printed_time":0,"total_layer":0,"total_time":3600000},"status":1}
+{
+  "data": {
+    "file_name": "Local/medaille_2_extruder_2.gcode",
+    "job_id": "C400AD844745_48E7DAEB839B_7e60a1702392518d1b",
+    "job_status": "running",
+    "print_progress": 0,
+    "printed_layer": 0,
+    "printed_time": 0,
+    "total_layer": 0,
+    "total_time": 3600000
+  },
+  "status": 1
+}
 ```
