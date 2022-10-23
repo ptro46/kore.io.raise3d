@@ -39,10 +39,10 @@ content-length: 102
 ```json
 {
   "data": {
-    "flow_cur_rate": 100,
-    "flow_tar_rate": 100,
-    "nozzle_cur_temp": 25,
-    "nozzle_tar_temp": 0
+    "flow_cur_rate": 98,
+    "flow_tar_rate": 98,
+    "nozzle_cur_temp": 276,
+    "nozzle_tar_temp": 275
   },
   "status": 1
 }
@@ -67,8 +67,8 @@ content-length: 102
   "data": {
     "flow_cur_rate": 100,
     "flow_tar_rate": 100,
-    "nozzle_cur_temp": 25,
-    "nozzle_tar_temp": 0
+    "nozzle_cur_temp": 276,
+    "nozzle_tar_temp": 275
   },
   "status": 1
 }
@@ -91,12 +91,12 @@ content-length: 142
 ```json
 {
   "data": {
-    "fan_cur_speed": 30,
-    "fan_tar_speed": 30,
+    "fan_cur_speed": 50,
+    "fan_tar_speed": 50,
     "feed_cur_rate": 100,
     "feed_tar_rate": 100,
-    "heatbed_cur_temp": 24,
-    "heatbed_tar_temp": 0
+    "heatbed_cur_temp": 99,
+    "heatbed_tar_temp": 100
   },
   "status": 1
 }
@@ -119,14 +119,14 @@ content-length: 239
 ```json
 {
   "data": {
-    "file_name": "Local/medaille_2_extruder_2.gcode",
-    "job_id": "C400AD844745_48E7DAEB839B_7e60a1702392518d1b",
+    "file_name": "Local/medaille_1.gcode",
+    "job_id": "C400AD844745_48E7DAEB839B_7e60a1715281a13a10",
     "job_status": "running",
-    "print_progress": 0,
-    "printed_layer": 0,
-    "printed_time": 0,
-    "total_layer": 0,
-    "total_time": 3600000
+    "print_progress": 1.1019070148468018,
+    "printed_layer": 6,
+    "printed_time": 444,
+    "total_layer": 43,
+    "total_time": 3689
   },
   "status": 1
 }
